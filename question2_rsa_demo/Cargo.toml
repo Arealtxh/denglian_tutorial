@@ -1,0 +1,11 @@
+[package]
+name = "question2_rsa_demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+openssl = "0.10"
+sha2 = "0.10"
+rand = "0.8"
+hex = "0.4"
+base64 = "0.21"
