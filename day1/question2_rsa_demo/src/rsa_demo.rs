@@ -14,8 +14,8 @@ fn main() {
     println!("私钥(PEM):\n{}", String::from_utf8_lossy(&private_key));
     println!("公钥(PEM):\n{}", String::from_utf8_lossy(&public_key));
 
-    // 2. POW: 寻找sha256("Alice"+nonce)以4个0开头
-    let nickname = "Alice";
+    // 2. POW: 寻找sha256("txh"+nonce)以4个0开头
+    let nickname = "txh";
     let mut nonce = 0u64;
     let pow_result;
     loop {
